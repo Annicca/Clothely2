@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="l.jpg" type="image/png">
+<link rel="stylesheet" type="text/css" href="testic.css">
+<script src = "jav.js"></script>
+<title>Тест</title>
+</head>
+<body>
+	<script type="text/javascript">
+      window.onload = changeBG;
+    </script>
+	<nav>
+      <a href = "head.html"><div id = "logo"><img src = "log.jpg" width = "200px" height = "60px"></div></a>
+      <a href = "corzina.html"><div class = "acc"><img src = "corz.png" width = "50px" height = "40px">
+      <div id = "corzina">0</div>
+      </div></a>
+      <div class ="acc" onClick ="give('vhod')" onmouseout ="dell('vhod')" ><img src ="vhod.png" width = "40px" height="40px">
+          <div class = "child" id = "vhod" onmouseover="give('vhod')"> 
+             <form>
+              <p>Войдите или зарегистрируйтесь</p>
+             <p><input type ="text" size = "16" maxlength = "10" placeholder="Логин" required></p>
+             <p><input type ="password" size = "16" maxlength = "16" placeholder="Пароль" required></p>
+             <div style = "display: inline-block;margin: 10px 5px 10px 5px"><button  onClick = "dell('vhod')">Вход</button></div><div style = "display: inline-block;margin: 10px 5px 10px 5px"><button onClick ="dell('vhod')">Регистрация</button></div>
+             </form>
+          </div>
+      </div>
+
+      <div class="poisc">
+        <form>
+          <input type="search" placeholder="...">
+          <button type="submit"><img src ="p.png" height = "25px" width = "25px" align = "center"></button>
+        </form>
+      </div>
+	    	<ul tipe = "none" id = "menu2">
+	    		<a href = "access.html"><li>Аксессуары</li></a>
+	    		<a href = "decoration.html"><li>Украшения</li></a>
+	    		<a href = "clothe.html"><li>Одежда</li></a>
+	    		<a href = "childgame.html"><li>Игрушки</li></a>
+	    		<a href = "cosmetics.html"><li>Косметика</li></a>
+	    		<a href = "homm.html"><li>Для дома</li></a>
+
+	    	</ul>
+    </nav>
+    	<header><a href = "#" id = "sil"><h4 id = "hedr">A</h4></a></header>
+	<main>
+   <p id = "content">♥Помоги нам улучшить сайт)</p>
+   <section>
+    <form id="test">
+      <fieldset style="display:inline-block">
+        <legend>Удобное ли меню сайта?</legend>
+        <p><label><input type="radio"name="counter" data-true="5">Удобно</label></p>
+        <p><label><input type="radio"name="counter" >Частично удобно</label></p>
+        <p><label><input type="radio"name="counter" >Так себе</label></p>
+        <p><label><input type="radio"name="counter" >Очень плохо, переделывай</label></p>
+      </fieldset>
+      <fieldset style="display:inline-block">
+        <legend>Нравится ли вам цветовая гамма сайта?</legend>
+        <p><label><input type="radio"name="counter2" data-true="5">Очень нравится. Какая красота!♥</label></p>
+        <p><label><input type="radio"name="counter2" data-true="4">Привлекательно)</label></p>
+        <p><label><input type="radio"name="counter2" data-true="3">Средне :\</label></p>
+        <p><label><input type="radio"name="counter2" data-true="2">Ужасно((((</label></p>
+      </fieldset>
+      <fieldset style="display:inline-block">
+        <legend>Удовлетворены ли вы выбором товаров на сайте?</legend>
+        <p><label><input type="radio"name="counter3" data-true="5">Да, большой выбор товаров)</label></p>
+        <p><label><input type="radio"name="counter3" data-true="4">В целом да</label></p>
+        <p><label><input type="radio"name="counter3" data-true="3">Не все товары удалось найти</label></p>
+        <p><label><input type="radio"name="counter3" data-true="2">Вы что выпали из мира? Старье одно(</label></p>
+      </fieldset>
+      <fieldset style="display:inline-block">
+        <legend>Оцените информативность сайта</legend>
+        <p><label><input type="radio"name="counter4" data-true="5">Всё супер, очень информативно</label></p>
+        <p><label><input type="radio"name="counter4" data-true="4">Достаточно информативно</label></p>
+        <p><label><input type="radio"name="counter4" data-true="3">Хотелось бы больше информации</label></p>
+        <p><label><input type="radio"name="counter4" data-true="2">Вообще не информативно. Стыд и позор(</label></p>
+      </fieldset>
+      <fieldset style="display:inline-block">
+        <legend>Довольны ли вы фотографиями товаров?</legend>
+        <p><label><input type="radio"name="counter5" data-true="5">Да, можно рассмотреть товар со всех сторон</label></p>
+        <p><label><input type="radio"name="counter5" data-true="4">Качество хорошее, но их мало</label></p>
+        <p><label><input type="radio"name="counter5" data-true="3">Не очень</label></p>
+        <p><label><input type="radio"name="counter5" data-true="2">А они у вас есть?</label></p>
+      </fieldset>
+      <fieldset style="display:inline-block">
+        <legend>Что вам больше всего понравилось?</legend>
+        <p><label><input type="checkbox"name="check" data-true="5">Очень удобное меню</label></p>
+        <p><label><input type="checkbox"name="check" data-true="4">Цветовая гамма</label></p>
+        <p><label><input type="checkbox"name="check" data-true="3">Выбор товаров</label></p>
+        <p><label><input type="checkbox"name="check" data-true="2">Ничего</label></p>
+      </fieldset>
+      <p id = "textans"><label>Как зовут создателя сайта?</label><input type="text" name="text1"data-true="5" dataans="Анюта Саулова"></p>
+    </form>
+    <button onClick="score()">Конец!</button>
+   </section>
+  </main>
+	<footer>
+    <div class="podval">
+		  <p>Соц сети</p>
+		  <p>
+		  <a href = "https://vk.com/vashe_solnce"><img src = "vk.png" width = "30px" height = "30px"></a>
+		  <a href = ""><img src = "inst.png" width = "30px" height = "30px"></a>
+
+		  </p>
+	  </div>
+		<div class = "podval"><p><a href ="about.html">О сайте</a></p></div>
+		<div class = "podval"><p><a href = "test.html">Тест</a></p></div>
+	</footer>
+</body>
+</html>

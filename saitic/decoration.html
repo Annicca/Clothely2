@@ -1,0 +1,349 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="l.jpg" type="image/png">
+<link rel="stylesheet" type="text/css" href="raz.css">
+<script src = "jav.js"></script>
+<title>Украшения</title>
+</head>
+<body>
+	<nav>
+      <a href = "head.html"><div id = "logo"><img src = "log.jpg" width = "200px" height = "60px"></div></a>
+		<a href = "corzina.html"><div class = "acc"><img src = "corz.png" width = "50px" height = "40px">
+      <div id = "corzina">0</div>
+      </div></a>
+      <div class ="acc" onClick ="give('vhod')" onmouseout ="dell('vhod')" ><img src ="vhod.png" width = "40px" height="40px">
+          <div class = "child" id = "vhod" onmouseover="give('vhod')"> 
+             <form>
+              <p>Войдите или зарегистрируйтесь</p>
+             <p><input type ="text" size = "16" maxlength = "10" placeholder="Логин" required></p>
+             <p><input type ="password" size = "16" maxlength = "16" placeholder="Пароль" required></p>
+             <div style = "display: inline-block;margin: 10px 5px 10px 5px"><button  onClick = "dell('vhod')">Вход</button></div><div style = "display: inline-block;margin: 10px 5px 10px 5px"><button onClick ="dell('vhod')">Регистрация</button></div>
+             </form>
+          </div>
+      </div>
+
+      <div class="poisc">
+        <form>
+          <input type="text" placeholder="...">
+          <button type="submit"><img src ="p.png" height = "25px" width = "25px" align = "center"></button>
+        </form>
+      </div>
+	    	<ul tipe = "none" id = "menu2">
+	    		<a href = "access.html"><li>Аксессуары</li></a>
+	    		<a href = "decoration.html"><li style = "border-bottom: 3px solid #218457;">Украшения</li></a>
+	    		<a href = "clothe.html"><li>Одежда</li></a>
+	    		<a href = "childgame.html"><li>Игрушки</li></a>
+	    		<a href = "cosmetics.html"><li>Косметика</li></a>
+	    		<a href = "homm.html"><li>Для дома</li></a>
+	    	</ul>
+    </nav>
+	<main>
+	 <aside>
+    <a href = "access/rings.html"><div class = "asid"><p>Кольца</p></div></a>
+    <a href = "access/sergii.html"><div class = "asid"><p>Серьги</p></div></a>
+    <a href = "access/ojerel.html"><div class = "asid"><p>Ожерелья</p></div></a>
+	 </aside>
+	 <div id = "content">
+    <div class = "opisanie" id = "t1">
+      <p id = "close" onmousedown="dell('t1')">X</p>
+      <img src = "access/ssvin.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Серьги-поросята</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: серьги<br>
+            МАтериал: полимерная глина<br>
+            цвет: розовый<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 180р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t2">
+      <p id = "close" onmousedown="dell('t2')">X</p>
+      <img src = "access/kvaperst.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Кольцо "Милая лягушка"</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: кольцо<br>
+            МАтериал: полимерная глина<br>
+            цвет: зелёный<br>
+            размер: все размеры колец<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 109р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t3">
+      <p id = "close" onmousedown="dell('t3')">X</p>
+      <img src = "access/bebr.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Ожерелье с надписью</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: ожерелье<br>
+            МАтериал: бисер и бусины<br>
+            цвет: белый<br>
+            размер: стандартный<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 110р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t4">
+      <p id = "close" onmousedown="dell('t4')">X</p>
+      <img src = "access/ojerelbel.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Ожерелье с цветочками из бисера</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: ожерелье<br>
+            МАтериал: бисер<br>
+            цвет: белый, зелёный, красный<br>
+            размер: стандартный<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 110р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t5">
+      <p id = "close" onmousedown="dell('t5')">X</p>
+      <img src = "access/ojlove.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Ожерелье с сердечками из бисера</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: ожерелье<br>
+            МАтериал: бисер<br>
+            цвет: белый<br>
+            размер: стандартный<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 110р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t6">
+      <p id = "close" onmousedown="dell('t6')">X</p>
+      <img src = "access/kollov.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Кольцо с сердечком из бисера</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: кольцо<br>
+            МАтериал: бисер<br>
+            цвет: белый, красный<br>
+            размер: все размеры колец<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 140р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t7">
+      <p id = "close" onmousedown="dell('t7')">X</p>
+      <img src = "access/sobl.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Серьги-облочка из полимерной глины</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: серьги<br>
+            МАтериал: полимерная глина<br>
+            цвет: белый<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 180р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t8">
+      <p id = "close" onmousedown="dell('t8')">X</p>
+      <img src = "access/kol3.jpg" height = "400px" width ="290px">
+      <div class = 'tovar'>
+         <p>Набор из 4 колец</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: кольцо<br>
+            МАтериал: полимерная глина<br>
+            цвет: разноцветный<br>
+            размер: все размеры колец<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 330р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t9">
+      <p id = "close" onmousedown="dell('t9')">X</p>
+      <img src = "access/spods.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Серьги-подсолнухи</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: серьги<br>
+            МАтериал: полимерная глина<br>
+            цвет: желтый, коричневый<br>
+
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 180р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t10">
+      <p id = "close" onmousedown="dell('t10')">X</p>
+      <img src = "UKRASH.png" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Набор серьги и подвеска</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: серьги / подвеска<br>
+            МАтериал: полимерная глина<br>
+            цвет: зелёный / серебряный<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 340р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t11">
+      <p id = "close" onmousedown="dell('t11')">X</p>
+      <img src = "access/kolsh.jpg" height = "400px" width ="290px">
+      <div class = 'tovar'>
+         <p>Колечко из бисера</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: кольцо<br>
+            МАтериал: бисер<br>
+            цвет: разноцветный<br>
+            размер: все размеры колец<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 130р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t12">
+      <p id = "close" onmousedown="dell('t12')">X</p>
+      <img src = "access/ojb.jpg" height = "400px" width ="280px">
+      <div class = 'tovar'>
+         <p>Ожерелье с бабочой</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: ожерелье<br>
+            МАтериал: бисер<br>
+            цвет: белый / фиолетовый<br>
+            размер: стандартный<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 190р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+	 	<div id = "tovar"></div>
+    <div class = "container" onmousedown="give('t1')">
+   	<img src = "access/ssvin.jpg" height = "300px" width ="220px">
+   	<p>Серьги-поросята <br>из полимерной глины</p>
+   	<p><font><b>180р</b></font>
+       <button onClick = "plus();">Купить</button>
+   	</p>
+   </div>
+    <div class = "container" onmousedown="give('t2')">
+      <img src = "access/kvaperst.jpg" height = "300px" width ="210px">
+      <p>Кольцо <br> "Милая лягушка"</p>
+      <p><font><b>109р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+   <div class = "container" onmousedown="give('t3')">
+   	<img src = "access/bebr.jpg" height = "300px" width ="210px">
+   	<p>Ожерелье <br> с надписью</p>
+   	<p><font><b>110р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+   <div class = "container" onmousedown="give('t4')">
+   	<img src = "access/ojerelbel.jpg" height = "300px" width ="210px">
+   	<p>Ожерелье с цветочками <br> из бисера</p>
+   	<p><font><b>110р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t5')">
+   	<img src = "access/ojlove.jpg" height = "300px" width ="210px">
+   	<p>Ожерелье с сердечками <br> из бисера</p>
+   	<p><font><b>110р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t6')">
+      <img src = "access/kollov.jpg" height = "300px" width ="220px">
+      <p>Кольцо с сердечком<br>из бисера</p>
+      <p><font><b>140р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t7')">
+   	<img src = "access/sobl.jpg" height = "300px" width ="210px">
+   	<p>Серьги-облочка<br>из полимерной глины</p>
+   	<p><font><b>180р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t8')">
+   	<img src = "access/kol3.jpg" height = "300px" width ="210px">
+   	<p>Набор из 4 <br>колец </p>
+   	<p><font><b>330р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t9')">
+   	<img src = "access/spods.jpg" height = "300px" width ="220px">
+   	<p>Серьги-подсолнухи <br>из полимерной глины</p>
+   	<p><font><b>180р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t10')">
+      <img src = "UKRASH.png" height = "300px" width ="220px">
+      <p>Набор<br>серьги и подвеска</p>
+      <p><font><b>340р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t11')">
+      <img src = "access/kolsh.jpg" height = "300px" width ="220px">
+      <p>Колечко<br>из бисера</p>
+      <p><font><b>130р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t12')">
+      <img src = "access/ojb.jpg" height = "300px" width ="210px">
+      <p>Ожерелье<br>с бабочкой</p>
+      <p><font><b>190р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+  </div>
+	</main>
+	<footer>
+    <div class="podval">
+		  <p>Соц сети:</p>
+		  <p>
+		  <a href = "https://vk.com/vashe_solnce"><img src = "vk.png" width = "30px" height = "30px"></a>
+		  <a href = ""><img src = "inst.png" width = "30px" height = "30px"></a>
+		  </p>
+	  </div>
+		<div class = "podval"><p><a href ="about.html">О сайте</a></p></div>
+		<div class = "podval"><p><a href = "test.html">Тест</a></p></div>
+	</footer>
+</body>
+</html>

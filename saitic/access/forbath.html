@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="../l.jpg" type="image/png">
+<link rel="stylesheet" type="text/css" href="../raz.css">
+<script src = "../jav.js"></script>
+<title>Косметика</title>
+</head>
+<body>
+	<nav>
+		  <a href = "../head.html"><div id = "logo"><img src = "../log.jpg" width = "200px" height = "60px"></div></a>
+			<a href = "../corzina.html"><div class = "acc"><img src = "../corz.png" width = "50px" height = "40px">
+      <div id = "corzina">0</div>
+			</div></a>
+      <div class ="acc" onClick ="give('vhod')" onmouseout ="dell('vhod')" ><img src ="../vhod.png" width = "40px" height="40px">
+          <div class = "child" id = "vhod" onmouseover="give('vhod')"> 
+             <form>
+              <p>Войдите или зарегистрируйтесь</p>
+             <p><input type ="text" size = "16" maxlength = "10" placeholder="Логин" required></p>
+             <p><input type ="password" size = "16" maxlength = "16" placeholder="Пароль" required></p>
+             <div style = "display: inline-block;margin: 10px 5px 10px 5px"><button  onClick = "dell('vhod')">Вход</button></div><div style = "display: inline-block;margin: 10px 5px 10px 5px"><button onClick ="dell('vhod')">Регистрация</button></div>
+             </form>
+          </div>
+      </div>
+
+
+      <div class="poisc">
+        <form>
+          <input type="text" placeholder="...">
+          <button type="submit"><img src ="../p.png" height = "25px" width = "25px" align = "center"></button>
+        </form>
+      </div>
+	    	<ul tipe = "none" id = "menu2">
+	    		<a href = "../access.html"><li>Аксессуары</li></a>
+	    		<a href = "../decoration.html"><li>Украшения</li></a>
+	    		<a href = "../clothe.html"><li>Одежда</li></a>
+	    		<a href = "../childgame.html"><li>Игрушки</li></a>
+	    		<a href = "../cosmetics.html"><li  style = "border-bottom: 3px solid #218457;">Косметика</li></a>
+	    		<a href = "../homm.html"><li>Для дома</li></a>
+	    	</ul>
+    </nav>
+	<main>
+	 <aside>
+	 	<a href= "mylaaaa.html"><div class = "asid"><p>Мыло</p></div></a>
+	 	<a href= "balzami.html"><div class = "asid"><p>Бальзам для губ</p></div></a>
+	 	<a href= "forbath.html"><div class = "asid"><p>Для ванны</p></div></a>
+	 </aside>
+	 <div id = "content">
+    <div class = "opisanie" id = "t2">
+      <p id = "close" onmousedown="dell('t2')">X</p>
+      <img src = "solvan.jpg" height = "400px" width ="290px">
+      <div class = 'tovar'>
+         <p>соль для ванны цветочные ароматы</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: соль для ванны<br>
+            состав: морская соль, сода, лимонная кислота, кокосовое масло, миндальное масло, кастровое масло, лепестки розы и пионов.
+            запах: легкий аромат розы и пионов<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 150г: 230р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t5">
+      <p id = "close" onmousedown="dell('t5')">X</p>
+      <img src = "bombcoca.jpg" height = "400px" width ="290px">
+      <div class = 'tovar'>
+         <p>бомбочка для ванны с кокао</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: бомбочка<br>
+            состав: бикарбонат натрия, лимонная кислота, морская соль, растительное масло виноградных косточек, кокао.<br>
+            масса: 120г<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 70р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t8">
+      <p id = "close" onmousedown="dell('t8')">X</p>
+      <img src = "bombroza.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>бомбочка для ванны с ароматом роозы</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: бомбочка<br>
+            состав: бикарбонат натрия, лимонная кислота, морская соль, растительное масло виноградных косточек, экстракт розы, лепестки роз.<br>
+            масса: 120г<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 1 шт: 60р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+   <div class = "container" onmousedown="give('t2')">
+   	<img src = "solvan.jpg" height = "300px" width ="210px">
+   	<p>Соль для ванны<br>"Цветочные ароматы"</p>
+   	<p><font><b>150г: 230р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t5')">
+   	<img src = "bombcoca.jpg" height = "300px" width ="200px">
+   	<p>Бомбочка для ванны<br>с кокао</p>
+   	<p><font><b>70р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t8')">
+   	<img src = "bombroza.jpg" height = "300px" width ="210px">
+   	<p>Бомбочка для ванны<br>с ароматом розы</p>
+   	<p><font><b>1шт: 60р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+  </div>
+	</main>
+	<footer>
+    <div class="podval">
+		  <p>Соц сети:</p>
+		  <p>
+		  <a href = "https://vk.com/vashe_solnce"><img src = "../vk.png" width = "30px" height = "30px"></a>
+		  <a href = ""><img src = "../inst.png" width = "30px" height = "30px"></a>
+		  </p>
+	  </div>
+		<div class = "podval"><p><a href ="../about.html">О сайте</a></p></div>
+		<div class = "podval"><p><a href = "../test.html">Тест</a></p></div>
+	</footer>
+</body>
+</html>

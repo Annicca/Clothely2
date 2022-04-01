@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="l.jpg" type="image/png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src = "jav.js"></script>
+<title>Главная</title>
+</head>
+<body>
+	<script type="text/javascript">
+      window.onload = changeBG;
+    </script>
+	<nav>
+		  <a href = "head.html"><div id = "logo"><img src = "log.jpg" width = "200px" height = "60px"></div></a>
+			<a href = "corzina.html"><div class = "acc"><img src = "corz.png" width = "50px" height = "40px">
+      <div id = "corzina">0</div>
+			</div></a>
+			<div class ="acc" onClick ="give('vhod')" onmouseout ="dell('vhod')" ><img src ="vhod.png" width = "40px" height="40px">
+          <div class = "child" id = "vhod" onmouseover="give('vhod')"> 
+             <form>
+             	<p>Войдите или зарегистрируйтесь</p>
+             <p><input type ="text" size = "16" maxlength = "10" placeholder="Логин" required></p>
+             <p><input type ="password" size = "16" maxlength = "16" placeholder="Пароль" required></p>
+             <div style = "display: inline-block;margin: 10px 5px 10px 5px"><button type = "submit" onClick = "dell('vhod')">Вход</button></div><div style = "display: inline-block;margin: 10px 5px 10px 5px"><button type = "submit" onClick ="dell('vhod')">Регистрация</button></div>
+             </form>
+          </div>
+      </div>
+      <div class="poisc">
+        <form>
+          <input type="search" placeholder="...">
+          <button type="submit"><img src ="p.png" height = "25px" width = "25px" align = "center"></button>
+        </form>
+      </div>
+	    	<ul tipe = "none" id = "menu2">
+	    		<a href = "access.html"><li>Аксессуары</li></a>
+	    		<a href = "decoration.html"><li>Украшения</li></a>
+	    		<a href = "clothe.html"><li>Одежда</li></a>
+	    		<a href = "childgame.html"><li>Игрушки</li></a>
+	    		<a href = "cosmetics.html"><li>Косметика</li></a>
+	    		<a href = "homm.html"><li>Для дома</li></a>
+
+	    	</ul>
+    </nav>
+    	<header><a href = "#" id = "sil"><h4 id = "hedr">A</h4></a></header>
+	<main>
+	<section>
+		<div float = "left"  style = "margin-right: 4%" class = "container">
+      <div float = "left" style = "margin-right: 10px" class = "container">
+          <a href = "clothe.html">
+        	<div class = "razdel">Одежда</div>
+        	<img src = "close.png" height = "450px" width = "320px">
+            </a>
+      </div>
+		  <div  float = "right" class = "container">
+		  	<a href = "homm.html">
+        	<div class = "razdel">Для дома</div>
+        	<img src = "home.jfif" height = "450px" width = "320px"></a>
+      </div>
+    </div>
+        <div float  ="right"class = "container">
+		  <div class = "container" float = "right">
+		  	<a href = "cosmetics.html">
+		    <div class = "razdel">Косметика</div>
+		    <img src = "cosm.jpg" height = "450px" width = "450px"></a></div>
+		</div>
+	</section>
+	<section>
+		  <div float = "left" class = "container" style = "margin-right: 4%">
+		  	<a href = "childgame.html">
+		    <div class = "razdel">Игрушки </div>
+		    <img src = "igr.jpg" height = "450px" width = "450px"></a></div>
+	  <div float = "right" class = "container">
+		<div float = "left" style = "margin-right: 10px" class = "container"><a href = "decoration.html">
+			<div class = "razdel">Украшения</div>
+			<img src = "UKRASH.png" height = "450px" width ="320px"></a>
+		</div>
+		<div float = "left" class = "container">
+			<a href = "access.html">
+			<div class = "razdel">Аксессуары</div>
+			<img src = "SUM.png" height = "450px" width ="320px"></a>
+		</div>
+	 </div>
+	</section>
+	<h2>Лучшие предложения</h2>
+	<section style="margin-top:8%;">
+		<a href = "access.html"><div class = "tovar">
+   	<img src = "access/summel.png" height = "300px" width ="220px">
+   	<p>Сумка черная с<br>крокодиловым узором</p>
+   	<p><font><b>450р</b></font></a>
+       <button onClick = "plus();">Купить</button>
+   	</p>
+   </div>
+   <a href = "clothe.html">
+       <div class = "tovar">
+   	<img src = "access/tpwh.jpg" height = "300px" width ="210px">
+   	<p>Топ женский<br>вязаный</p>
+   	<p><font><b>890р</b></font></a>
+       <button button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+   <a href = "decoration.html">
+       <div class = "tovar">
+   	<img src = "access/spods.jpg" height = "300px" width ="220px">
+   	<p>Серьги-подсолнухи <br>из полимерной глины</p>
+   	<p><font><b>180р</b></font></a>
+       <button>Купить</button>
+    </p>
+   </div>
+   <a href = "homm.html">
+       <div class = "tovar">
+   	<img src = "access/blud.jpg" height = "300px" width ="210px">
+   	<p>Блюдце<br>для украшений</p>
+   	<p><font><b>1шт: 560р</b></font></a>
+       <button button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+</section>
+	</main>
+	<footer>
+    <div class="podval">
+		  <p>Соц сети</p>
+		  <p>
+		  <a href = "https://vk.com/vashe_solnce"><img src = "vk.png" width = "30px" height = "30px"></a>
+		  <a href = ""><img src = "inst.png" width = "30px" height = "30px"></a>
+
+		  </p>
+	  </div>
+		<div class = "podval"><p><a href ="about.html">О сайте</a></p></div>
+		<div class = "podval"><p><a href = "test.html">Тест</a></p></div>
+	</footer>
+</body>
+</html>

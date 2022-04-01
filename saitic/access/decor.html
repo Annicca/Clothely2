@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="../l.jpg" type="image/png">
+<link rel="stylesheet" type="text/css" href="../raz.css">
+<script src = "../jav.js"></script>
+<title>Всё для дома</title>
+</head>
+<body>
+	<nav>
+ 		  <a href = "../head.html"><div id = "logo"><img src = "../log.jpg" width = "200px" height = "60px"></div></a>
+			<a href = "../corzina.html"><div class = "acc"><img src = "../corz.png" width = "50px" height = "40px">
+      <div id = "corzina">0</div>
+			</div></a>
+      <div class ="acc" onClick ="give('vhod')" onmouseout ="dell('vhod')" ><img src ="../vhod.png" width = "40px" height="40px">
+          <div class = "child" id = "vhod" onmouseover="give('vhod')"> 
+             <form>
+              <p>Войдите или зарегистрируйтесь</p>
+             <p><input type ="text" size = "16" maxlength = "10" placeholder="Логин" required></p>
+             <p><input type ="password" size = "16" maxlength = "16" placeholder="Пароль" required></p>
+             <div style = "display: inline-block;margin: 10px 5px 10px 5px"><button  onClick = "dell('vhod')">Вход</button></div><div style = "display: inline-block;margin: 10px 5px 10px 5px"><button onClick ="dell('vhod')">Регистрация</button></div>
+             </form>
+          </div>
+      </div>
+
+      <div class="poisc">
+        <form>
+          <input type="text" placeholder="...">
+          <button type="submit"><img src ="../p.png" height = "25px" width = "25px" align = "center"></button>
+        </form>
+      </div>
+	    	<ul tipe = "none" id = "menu2">
+	    		<a href = "../access.html"><li>Аксессуары</li></a>
+	    		<a href = "../decoration.html"><li>Украшения</li></a>
+	    		<a href = "../clothe.html"><li>Одежда</li></a>
+	    		<a href = "../childgame.html"><li>Игрушки</li></a>
+	    		<a href = "../cosmetics.html"><li>Косметика</li></a>
+	    		<a href = "../homm.html"><li style = "border-bottom: 3px solid #218457;">Для дома</li></a>
+	    	</ul>
+    </nav>
+	<main>
+	 <aside>
+      <a href= "kovri.html"><div class = "asid"><p>Ковры</p></div></a>
+      <a href= "decor.html"><div class = "asid"><p>декор</p></div></a>
+      <a href= "bluda.html"><div class = "asid"><p>Блюдца и миски</p></div></a>
+	 </aside>
+	 <div id = "content">
+    <div class = "opisanie" id = "t3">
+      <p id = "close" onmousedown="dell('t3')">X</p>
+      <img src = "podava.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>подставки для чашки "авокадики"</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: подставки для чашки<br>
+            цвет: зеленый<br>
+            материал: хлопок<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 170р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t5">
+      <p id = "close" onmousedown="dell('t5')">X</p>
+      <img src = "2vaz2.jpg" height = "400px" width ="280px">
+      <div class = 'tovar'>
+         <p>вазы плетёные 2 шт</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: ваза<br>
+            цвет: коричневый / белый<br>
+            высота: 80см <br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 2370р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t7">
+      <p id = "close" onmousedown="dell('t7')">X</p>
+      <img src = "yolka.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>новогоднее украшение на стену "ёлочка"</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: декор<br>
+            цвет: разноцветный<br>
+            размер: 60х80<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 910р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+   <div class = "container" onmousedown="give('t3')">
+   	<img src = "podava.jpg" height = "300px" width ="210px">
+   	<p>Подставки для чашки<br>"Авокадики"</p>
+   	<p><font><b>170р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t5')">
+   	<img src = "2vaz2.jpg" height = "300px" width ="200px">
+   	<p>Вазы плетеные<br>2 шт</p>
+   	<p><font><b>2370р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t7')">
+   	<img src = "yolka.jpg" height = "300px" width ="210px">
+   	<p>Новогоднее украшение<br>на стену "Ёлочка"</p>
+   	<p><font><b>910р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+  </div>
+	</main>
+	<footer>
+    <div class="podval">
+		  <p>Соц сети:</p>
+		  <p>
+		  <a href = "https://vk.com/vashe_solnce"><img src = "../vk.png" width = "30px" height = "30px"></a>
+		  <a href = ""><img src = "../inst.png" width = "30px" height = "30px"></a>
+		  </p>
+	  </div>
+		<div class = "podval"><p><a href ="../about.html">О сайте</a></p></div>
+		<div class = "podval"><p><a href = "../test.html">Тест</a></p></div>
+	</footer>
+</body>
+</html>

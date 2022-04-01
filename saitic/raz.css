@@ -1,0 +1,282 @@
+html{
+background-image: url('background.jpg');
+background-repeat: repeat;
+background-size: 100%;
+font-family: Arial;
+width: 100%;
+}
+body{
+text-align: center;
+font-size: 3vmах;
+width: 100%;
+margin: 0 auto;
+margin-top: 65px;
+}
+#logo{
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin: 1% 0 0 1%;
+}
+#logo img{
+border-radius: 8px;
+}
+.poisc form {
+position: relative;
+width: 300px;
+margin: 25px 10px 0 0;
+float: right;
+}
+.poisc:after {
+content:""; 
+clear:both; 
+display:table
+}
+.poisc input {
+width: 80px;
+height: 40px;
+padding-left: 15px;
+border-radius: 42px;
+border: 2px solid #324b4e;
+outline: none;
+position: relative;
+transition: .3s linear;
+float: right;
+}
+.poisc input:focus {
+  width: 300px;
+}
+.poisc button {
+width: 33px;
+height: 33px;
+position: absolute;
+display: block;
+top: 1px;
+right: 5px;
+background: none;
+border: none;
+background-image: url('p.png');
+font-family: FontAwesome;
+}
+#corzina{
+top: 1%;
+position: absolute;
+text-align: center;
+background-color: white;
+border-radius: 10px;
+right: 1%;
+font-size: 14px;
+width: 35%;
+color: #218457;
+}
+a{
+text-decoration: none;
+}
+nav{
+position: absolute;
+top: 0;
+left: 10%;
+background-color: #AAF0D1;
+background-color: rgba(170,240,209,0.6);
+border-radius: 0 0 10px 10px;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+text-transform: uppercase;
+}
+ul{
+display: block;
+float : center;
+height: 10%;
+margin: 20px 5px 0px 0px;
+width: 100%;
+}
+nav ul li {
+margin-left: 10px;
+display: inline-block;
+text-align: center; 
+padding: 10px; 
+margin: 0 3%;
+}
+nav a{
+color: #218457;
+}
+nav ul li:hover{
+color: #66CDAA;
+border-bottom:  3px solid #218457;
+}
+nav ul li:active{
+font-size: 0.9em;
+padding: 5px; 
+}
+.acc{
+float: right;
+margin: 25px 10px 0 0;
+display: inline-block;
+position: relative;
+}
+aside{
+position: fixed;
+display: inline-block;
+width: 18%;
+background-color: white;
+border-radius: 10px 10px 10px 10px;
+float: left;
+left: 11%;
+margin: 0 % 0;
+padding: 0.5%;
+}
+
+.asid{
+padding: 0.2% 0 0.2% 3%;
+width: 100%;
+border-radius: 10px 10px 10px 10px;
+}
+.asid:hover{
+background-color: #E4DED7;
+}
+.container{
+position: relative ;
+display : inline-block;
+margin: 0 2% 2% 1%;
+background-color: white;
+border-radius: 10px 10px 10px 10px;
+width: 260px;
+height: 430px;
+}
+.opisanie{
+position: fixed;
+display: none;
+margin-left: auto;
+margin-right: auto;
+right: 20%;
+border-radius: 5px;
+background : white;
+border: 2px solid;
+width: 60%;
+height: 70%;
+z-index: 1;
+line-height: 1.5;
+padding: 0;
+font-size: 20px;
+}
+.child{
+display: none;
+right: 0;
+border-radius: 8px;
+background-color : white;
+position: absolute;
+min-width: 250px;
+z-index: 1;
+top: 39px;
+}
+.show {
+display:block;
+}
+.tovar{
+position: absolute;
+display: inline-block;
+width: 35%;
+height: 60%;
+right: 0;
+margin-right: 10%;
+margin-top: 1px;
+
+}
+.opisanie img{
+position: absolute;
+display: inline-block;
+margin-left: 8%;
+margin-right: auto;
+margin-top: 1px;
+left: 0;
+}
+#close{
+position: relative;
+right: 0;
+padding: 0 5px;
+margin-top: 0;
+text-align: right;
+}
+#content{
+position: relative;
+display: inline-block;
+width: 80%;
+float: right;
+right: -2%;
+}
+main{
+width: 80%;
+position: relative;
+display: inline-block;
+float: center;
+left, right: 10%;
+margin: 90PX auto 0;
+padding-top: 1%;
+border-radius: 10px 10px 10px 10px;
+background: #dfdfdf;
+background-color: rgba(0,0,0,0.3);
+}
+main img{
+border-radius:10px;
+display: block;
+margin: 7% auto 0;
+}
+main a{
+color: black;
+}
+main p{
+text-align: left;
+text-transform: uppercase;
+color: #39332D;
+padding: 0 7% ;
+}
+.container button, .opisanie button, .child button{
+display: inline-block;
+border-radius: 45px;
+float: right;
+padding: 5px 8px;
+margin-bottom: 10px;
+border: 0;
+font-size: 15px;
+text-transform: uppercase;
+text-align: center;
+color: #39332D;
+background: #E4DED7;
+box-shadow: 0 8px 15px rgba(0,0,0, 0.2);
+
+}
+footer{
+position: absolute;
+left: 10%;
+margin: 1% auto 0;
+background: #AAF0D1;
+background-color: rgba(57,51,45,0.8);
+border-radius: 10px 10px 10px 10px;
+width:80%;
+}
+.podval{
+display: inline-block;
+position: relative;
+float: left;
+top: 1%;
+left: 1%;
+margin-right: 2%;
+}
+footer p{
+color: #9A8B79;
+text-transform: uppercase;
+}
+footer p img{
+margin-right : 10px;
+}
+footer p a{
+color: #9A8B79;
+}
+footer p a:hover{
+color: white;
+}
+footer p a:active{
+text-decoration: underline;
+}
+

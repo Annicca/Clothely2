@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="../l.jpg" type="image/png">
+<link rel="stylesheet" type="text/css" href="../raz.css">
+<script src = "../jav.js"></script>
+<title>Одежда</title>
+</head>
+<body>
+	<nav>
+      <a href = "../head.html"><div id = "logo"><img src = "../log.jpg" width = "200px" height = "60px"></div></a>
+			<a href = "../corzina.html"><div class = "acc"><img src = "../corz.png" width = "50px" height = "40px">
+      <div id = "corzina">0</div>
+      </div></a>
+      <div class ="acc" onClick ="give('vhod')" onmouseout ="dell('vhod')" ><img src ="../vhod.png" width = "40px" height="40px">
+          <div class = "child" id = "vhod" onmouseover="give('vhod')"> 
+             <form>
+              <p>Войдите или зарегистрируйтесь</p>
+             <p><input type ="text" size = "16" maxlength = "10" placeholder="Логин" required></p>
+             <p><input type ="password" size = "16" maxlength = "16" placeholder="Пароль" required></p>
+             <div style = "display: inline-block;margin: 10px 5px 10px 5px"><button  onClick = "dell('vhod')">Вход</button></div><div style = "display: inline-block;margin: 10px 5px 10px 5px"><button onClick ="dell('vhod')">Регистрация</button></div>
+             </form>
+          </div>
+      </div>
+
+      <div class="poisc">
+        <form>
+          <input type="text" placeholder="...">
+          <button type="submit"><img src ="../p.png" height = "25px" width = "25px" align = "center"></button>
+        </form>
+      </div>
+	    	<ul tipe = "none">
+	    		<a href = "../access.html"><li>Аксессуары</li></a>
+	    		<a href = "../decoration.html"><li>Украшения</li></a>
+	    		<a href = "../clothe.html"><li style = "border-bottom: 3px solid #218457;">Одежда</li></a>
+	    		<a href = "../childgame.html"><li>Игрушки</li></a>
+	    		<a href = "../cosmetics.html"><li>Косметика</li></a>
+	    		<a href = "../homm.html"><li>Для дома</li></a>
+	    	</ul>
+    </nav>
+	<main>
+	 <aside>
+	 	<a href= "childclothe.html"><div class = "asid"><p>Детская одежда</p></div></a>
+	 	<a href= "womenclothe.html"><div class = "asid"><p>Женская одежда</p></div></a>
+	 	<a href= "menclothe.html"><div class = "asid"><p>Мужская одежда</p></div></a>
+      <a href= "obuv.html"><div class = "asid"><p>Обувь и носки</p></div></a>
+	 </aside>
+	 <div id = "content">
+    <div class = "opisanie" id = "t1">
+      <p id = "close" onmousedown="dell('t1')">X</p>
+      <img src = "topbl.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Топ женский с узором</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: топ<br>
+            МАтериал: хлопок<br>
+            цвет: черный, бежевый, оранжевый<br>
+            размер: все размеры<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 740р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t6">
+      <p id = "close" onmousedown="dell('t6')">X</p>
+      <img src = "tpwh.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>Топ женский вязаный</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: топ<br>
+            МАтериал: хлопок<br>
+            цвет: белый, жёлтый, коричневый<br>
+            размер: все размеры<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 890р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t7">
+      <p id = "close" onmousedown="dell('t7')">X</p>
+      <img src = "ub.jpg" height = "400px" width ="290px">
+      <div class = 'tovar'>
+         <p>Юбка женская с узором в виде цветов</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: юбка<br>
+            МАтериал: хлопок<br>
+            цвет: голубой, жёлтый, оранжевый<br>
+            размер: все размеры<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 1230р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t9">
+      <p id = "close" onmousedown="dell('t9')">X</p>
+      <img src = "card.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>кардиган женский с вышивкой крестиком</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: кардиган<br>
+            МАтериал: хлопок<br>
+            цвет: разноцветный<br>
+            размер: все размеры<br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 2290р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t11">
+      <p id = "close" onmousedown="dell('t11')">X</p>
+      <img src = "costum.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>женский костюм топ и шорты</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: топ / шорты<br>
+            МАтериал: хлопок<br>
+            цвет: разноцветный<br>
+            размер: все размеры <br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 3580р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "opisanie" id = "t14" >
+      <p id = "close" onmousedown="dell('t14')">X</p>
+      <img src = "ubl.jpg" height = "400px" width ="300px">
+      <div class = 'tovar'>
+         <p>юбка женская фиолетовая</p>
+         <p style = "font-size: 14px; color: grey;">
+            Тип: юбка<br>
+            МАтериал: хлопок<br>
+            цвет: фиолетовый<br>
+            размер: все размеры <br>
+         </p>
+      <p style = "font-size: 16px;">Доставка в течение 7 дней<br> почтой России</p>
+      <p><font>Цена: <b> 1290р</b></font>
+      <button onClick = "plus();">Купить</button>
+      </p>
+      </div>
+      </div>
+    <div class = "container" onmousedown="give('t1')">
+    <img src = "topbl.jpg" height = "300px" width ="220px">
+    <p>Топ женский<br>с узором</p>
+    <p><font><b>740р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t6')">
+    <img src = "tpwh.jpg" height = "300px" width ="210px">
+    <p>Топ женский<br>вязаный</p>
+    <p><font><b>890р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t7')">
+    <img src = "ub.jpg" height = "300px" width ="210px">
+    <p>Юбка женская с узором<br>в виде цветов</p>
+    <p><font><b>1230р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t9')">
+    <img src = "card.jpg" height = "300px" width ="210px">
+    <p>Кардиган женский<br>с вышивкой крестиком</p>
+    <p><font><b>2290р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t11')">
+      <img src = "costum.jpg" height = "300px" width ="220px">
+      <p>Женский костюм<br>топ и шорты</p>
+      <p><font><b>3580р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+    <div class = "container" onmousedown="give('t14')">
+      <img src = "ubl.jpg" height = "300px" width ="230px"></p>
+      <p>Юбка женская<br>фиолетовая
+      <p><font><b>1290р</b></font>
+       <button onClick = "plus();">Купить</button>
+    </p>
+   </div>
+
+  </div>
+	</main>
+	<footer>
+    <div class="podval">
+		  <p>Соц сети:</p>
+		  <p>
+		  <a href = "https://vk.com/vashe_solnce"><img src = "../vk.png" width = "30px" height = "30px"></a>
+		  <a href = ""><img src = "../inst.png" width = "30px" height = "30px"></a>
+		  </p>
+	  </div>
+		<div class = "podval"><p><a href ="../about.html">О сайте</a></p></div>
+		<div class = "podval"><p><a href = "../test.html">Тест</a></p></div>
+	</footer>
+</body>
+</html>
